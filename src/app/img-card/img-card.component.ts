@@ -24,7 +24,6 @@ export class ImgCardComponent implements OnInit {
   generateSrc(): void {
     this.src = this.image.api + this.image.message + /* '?size=' + this.image.fontSize + */ '?ts=' + Date.now();
   }
-
 }
 
 class CatImage {
