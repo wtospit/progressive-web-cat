@@ -24,7 +24,8 @@
         "/progressive-web-cat/assets/icons/icon-128x128.png",
         "/progressive-web-cat/assets/icons/icon-152x152.png",
         "/progressive-web-cat/assets/icons/icon-256x256.png",
-        "/progressive-web-cat/assets/icons/icon-512x512.png"
+        "/progressive-web-cat/assets/icons/icon-512x512.png",
+        "/progressive-web-cat/assets/meta-img.jpg"
       ],
       "patterns": [
         "https:\\/\\/cataas\\.com\\/.*"
@@ -37,8 +38,9 @@
     "/progressive-web-cat/assets/icons/icon-152x152.png": "8ef109f625bc8347ac7cb56fc6b1b5af7fc422e0",
     "/progressive-web-cat/assets/icons/icon-256x256.png": "c9242c178842df958632c68ec1229d2883227fd1",
     "/progressive-web-cat/assets/icons/icon-512x512.png": "281525081269e33edb5465c91726fc64ca064f88",
+    "/progressive-web-cat/assets/meta-img.jpg": "acfaace764be6e454a777fb391ccd7548b0753aa",
     "/progressive-web-cat/favicon.ico": "8d0e6bf054f223c2eae253a2b8d841cfe57b3b6e",
-    "/progressive-web-cat/index.html": "168509f2d736cfbe8762dfcaec932eea4254ace8",
+    "/progressive-web-cat/index.html": "420cb2952c6ff6c07a72d9a716f3a30777fa8aa8",
     "/progressive-web-cat/main.968caec214cd137b77b0.js": "919b3a5363cb1942809b28da18e1a82b4f72e9dc",
     "/progressive-web-cat/polyfills.2f4a59095805af02bd79.js": "8949bb1b1e302dda246f6ed9c2da703270360b1f",
     "/progressive-web-cat/runtime.a66f828dca56eeb90e02.js": "078e320cc6fdaf355836c3b1c52b059cdd33fc7e",
