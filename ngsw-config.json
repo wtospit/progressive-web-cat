@@ -19,6 +19,9 @@
       "resources": {
         "files": [
           "/assets/**"
+        ],
+        "urls": [
+          "https://catass.com/**"
         ]
       }
     }

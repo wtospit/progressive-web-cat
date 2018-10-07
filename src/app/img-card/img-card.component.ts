@@ -13,17 +13,34 @@ export class ImgCardComponent implements OnInit {
     // fontSize: 20
   };
 
+  private button: Button = {
+    text: 'Give me another cat',
+    color: 'primary',
+    disabled: false
+  }
+
   constructor() { }
 
   public src: string;
 
   ngOnInit() {
     this.generateSrc();
+
+    if (!navigator.onLine) {
+      this.button.text = 'Offline Mode';
+      this.button.disabled = true;
+    }
   }
 
   generateSrc(): void {
     this.src = this.image.api + this.image.message + /* '?size=' + this.image.fontSize + */ '?ts=' + Date.now();
   }
+}
+
+class Button {
+  text: string;
+  disabled: boolean;
+  color: string;
 }
 
 class CatImage {
