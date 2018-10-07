@@ -1,0 +1,79 @@
+{
+  "configVersion": 1,
+  "index": "/progressive-web-cat/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [
+        "/progressive-web-cat/favicon.ico",
+        "/progressive-web-cat/index.html",
+        "/progressive-web-cat/main.cfeb24381648f5321be9.js",
+        "/progressive-web-cat/polyfills.2f4a59095805af02bd79.js",
+        "/progressive-web-cat/runtime.a66f828dca56eeb90e02.js",
+        "/progressive-web-cat/styles.7fdaddd11a14e5f99084.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "urls": [
+        "/progressive-web-cat/assets/icon-128x128.png",
+        "/progressive-web-cat/assets/icon-152x152.png",
+        "/progressive-web-cat/assets/icon-256x256.png",
+        "/progressive-web-cat/assets/icon-512x512.png",
+        "/progressive-web-cat/assets/icons/icon-128x128.png",
+        "/progressive-web-cat/assets/icons/icon-144x144.png",
+        "/progressive-web-cat/assets/icons/icon-152x152.png",
+        "/progressive-web-cat/assets/icons/icon-192x192.png",
+        "/progressive-web-cat/assets/icons/icon-384x384.png",
+        "/progressive-web-cat/assets/icons/icon-512x512.png",
+        "/progressive-web-cat/assets/icons/icon-72x72.png",
+        "/progressive-web-cat/assets/icons/icon-96x96.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/progressive-web-cat/assets/icon-128x128.png": "281525081269e33edb5465c91726fc64ca064f88",
+    "/progressive-web-cat/assets/icon-152x152.png": "281525081269e33edb5465c91726fc64ca064f88",
+    "/progressive-web-cat/assets/icon-256x256.png": "281525081269e33edb5465c91726fc64ca064f88",
+    "/progressive-web-cat/assets/icon-512x512.png": "281525081269e33edb5465c91726fc64ca064f88",
+    "/progressive-web-cat/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "/progressive-web-cat/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "/progressive-web-cat/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "/progressive-web-cat/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "/progressive-web-cat/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "/progressive-web-cat/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "/progressive-web-cat/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "/progressive-web-cat/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "/progressive-web-cat/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
+    "/progressive-web-cat/index.html": "a20ae6a4be2ce38be0205234df4cb9ebf250481a",
+    "/progressive-web-cat/main.cfeb24381648f5321be9.js": "be000230ef096ffacc232bff20fec32d2a3d4bb9",
+    "/progressive-web-cat/polyfills.2f4a59095805af02bd79.js": "8949bb1b1e302dda246f6ed9c2da703270360b1f",
+    "/progressive-web-cat/runtime.a66f828dca56eeb90e02.js": "078e320cc6fdaf355836c3b1c52b059cdd33fc7e",
+    "/progressive-web-cat/styles.7fdaddd11a14e5f99084.css": "197e61bb493c60a5776095256489dd440115b535"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ]
+}
