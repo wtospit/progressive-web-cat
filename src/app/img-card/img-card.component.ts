@@ -10,7 +10,7 @@ export class ImgCardComponent implements OnInit {
   private image: CatImage = {
     message: 'Progressive Web Cat',
     api: 'https://cataas.com/cat/says/',
-    fontSize: 40
+    // fontSize: 20
   };
 
   constructor() { }
@@ -22,7 +22,7 @@ export class ImgCardComponent implements OnInit {
   }
 
   generateSrc(): void {
-    this.src = this.image.api + this.image.message + '?size=' + this.image.fontSize + '?ts=' + Date.now();
+    this.src = this.image.api + this.image.message + /* '?size=' + this.image.fontSize + */ '?ts=' + Date.now();
   }
 
 }
@@ -30,5 +30,5 @@ export class ImgCardComponent implements OnInit {
 class CatImage {
   message: string;
   api: string;
-  fontSize: number;
+  // fontSize: number;
 }
