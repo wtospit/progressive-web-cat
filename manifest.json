@@ -1,6 +1,6 @@
 {
   "name": "progressive-web-cat",
-  "short_name": "progressive-web-cat",
+  "short_name": "cat",
   "theme_color": "#673ab7",
   "background_color": "#ffffff",
   "display": "standalone",
