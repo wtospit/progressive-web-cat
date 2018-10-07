@@ -10,7 +10,6 @@ export class ImgCardComponent implements OnInit {
   private image: CatImage = {
     message: 'Progressive Web Cat',
     api: 'https://cataas.com/cat/says/',
-    // fontSize: 20
   };
 
   button: Button = {
@@ -31,7 +30,6 @@ export class ImgCardComponent implements OnInit {
       this.button.disabled = true;
     }
   }
-
   generateSrc(): void {
     this.src = this.image.api + this.image.message + /* '?size=' + this.image.fontSize + */ '?ts=' + Date.now();
   }
