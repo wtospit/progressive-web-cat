@@ -24,7 +24,8 @@ export class ImgCardComponent implements OnInit {
   public src: string;
 
   ngOnInit() {
-    this.generateSrc();
+    this.src = this.image.api + this.image.message + '?size=' + this.image.fontsize;
+
     if (!navigator.onLine) {
       this.button.text = 'Offline Mode';
       this.button.disabled = true;
