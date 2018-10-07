@@ -13,7 +13,7 @@ export class ImgCardComponent implements OnInit {
     // fontSize: 20
   };
 
-  private button: Button = {
+  button: Button = {
     text: 'Give me another cat',
     color: 'primary',
     disabled: false
