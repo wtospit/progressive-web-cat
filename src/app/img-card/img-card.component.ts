@@ -42,7 +42,6 @@ class Button {
   disabled: boolean;
   color: string;
 }
-
 class CatImage {
   message: string;
   api: string;
